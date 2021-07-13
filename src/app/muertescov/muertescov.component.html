@@ -1,0 +1,49 @@
+<div class="text-center text-dark" >
+  <h3>DATOS DE LOS BEBES RECIEN NACIDOS EN ECUADOR</h3>
+  <div class="row">
+    <div class="col">
+      <div class="alert alert-danger" role="alert">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Nombres</label>
+          <input type="email" class="form-control" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Ciudad o Canton</label>
+          <input type="email" class="form-control"  aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Sexo</label>
+          <input type="email" class="form-control" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">PESO</label>
+          <input type="email" class="form-control"  aria-describedby="emailHelp">
+        </div>
+        <button type="button" class="btn btn-primary">GUARDAR</button>
+
+      </div>
+    </div>
+    <div class="div col">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">NOMBRES</th>
+            <th scope="col">CIUDAD O CANTON</th>
+            <th scope="col">SEXO</th>
+            <th scope="col">PESO</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>{{datosPais.nombre}}</td>
+            <td>{{datosPais.Ciudad}}</td>
+            <td>{{datosPais.Sexo}}</td>
+            <td>{{datosPais.Peso}}</td>
+            <td>{{datosPais.data}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
